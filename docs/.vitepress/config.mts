@@ -5,6 +5,7 @@ export default defineConfig({
   // TODO change your site title and description
   title: 'demo',
   description: 'desc',
+  // TODO change this to your site base url or remove it if no base url provided
   base: '/vitepress-template',
   rewrites: {
     'zh/:rest*': ':rest*',
