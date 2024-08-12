@@ -3,6 +3,7 @@ name: Deploy VitePress site to Pages
 on:
   push:
     branches:
+      # TODO change the branch name to your realease branch or use tag if needed
       - 'master'
     paths:
       - docs/**
