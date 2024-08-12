@@ -2,13 +2,17 @@ import { defineConfig } from 'vitepress';
 import { fetchItems } from './fetch_sidebar.mts';
 
 export default defineConfig({
-  title: 'sqala',
-  description: 'sqala',
+  // TODO change your site title and description
+  title: 'demo',
+  description: 'desc',
+  // TODO change the base url to your repo name or delete if it does not have a base
+  base: 'vitepress-template',
   rewrites: {
     'zh/:rest*': ':rest*',
   },
   themeConfig: {
-    socialLinks: [{ icon: 'github', link: 'https://github.com/wz7982/sqala' }],
+    // TODO change your site github repo
+    socialLinks: [{ icon: 'github', link: 'https://github.com/dragove/vitepress-template' }],
     search: {
       provider: 'local',
     },
