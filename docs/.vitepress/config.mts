@@ -12,7 +12,9 @@ export default defineConfig({
   },
   themeConfig: {
     // TODO change your site github repo
-    socialLinks: [{ icon: 'github', link: 'https://github.com/dragove/vitepress-template' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/dragove/vitepress-template' },
+    ],
     search: {
       provider: 'local',
     },
